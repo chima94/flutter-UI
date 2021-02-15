@@ -8,7 +8,12 @@ class HotelHomeScreen extends StatefulWidget {
 class _HotelHomeScreenState extends State<HotelHomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        title: Text('Hotel'),
+      ),
+    );
   }
 }
 

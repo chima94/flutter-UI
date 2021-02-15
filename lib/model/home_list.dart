@@ -21,7 +21,7 @@ class HomeList{
         navigationScreen: FitnessHomeScreen()
       ),
       HomeList(
-        imagePath: 'assets/design_course/webInterFace.png',
+        imagePath: 'assets/design_course/design_course.png',
         navigationScreen: CourseDesignHomeScreen()
       )
     ];
